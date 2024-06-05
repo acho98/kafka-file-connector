@@ -3,11 +3,10 @@ kafka filestream sink connector
 
 ## Log Format
 - Rotated and stored in desinated MB
-- Examples
-${PROJECT_NAME}/${PODNAME}.log 
-${PROJECT_NAME}/${PODNAME}-YYYYMMDD_1.log 
-${PROJECT_NAME}/${PODNAME}-YYYYMMDD_2.log
-${PROJECT_NAME}/${PODNAME}-YYYYMMDD_3.log
+- Examples  
+${PROJECT_NAME}/${PODNAME}.log  
+${PROJECT_NAME}/${PODNAME}-YYYYMMDD_1.log  
+${PROJECT_NAME}/${PODNAME}-YYYYMMDD_2.log  
 
 ## Sink Connector Config
 ```
