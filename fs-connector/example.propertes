@@ -1,0 +1,9 @@
+# Connector configuration
+name=filestream-sink
+connector.class=org.gd.connect.FileStreamSinkConnector
+tasks.max=1
+
+# Task configuration
+file=/path/to/your/file.log
+max.size=10485760
+topics=test
